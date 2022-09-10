@@ -9,14 +9,14 @@ terraform {
 }
 
 provider "google" {
-  project = "qwiklabs-gcp-02-06a3ae9ea2e6"
+  project = "qwiklabs-gcp-01-64b3797eed70"
  
   # Configuration options
 }
 
 
-resource "google_storage_bucket" "auto-expire" {
-  name          = "auto-expiring-bucket-ukb"
+resource "google_storage_bucket" "gcs2" {
+  name          = "auto-expiring-bucket-ukb-32423"
   location      = "US"
   force_destroy = true
 
